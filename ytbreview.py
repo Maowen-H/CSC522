@@ -160,7 +160,7 @@ from langdetect.lang_detect_exception import LangDetectException
 # -------------------------------
 # 设置 API
 # -------------------------------
-API_KEY = "AIzaSyDWbCLeL8fTdLAQrGsTHp71esEYECG8lVY"
+API_KEY = ""
 SEARCH_QUERIES = ["music", "technology", "gaming", "travel", "education", "sports", "cooking"]
 SEARCH_QUERY = random.choice(SEARCH_QUERIES)
 TARGET_VIDEO_COUNT = 500  
