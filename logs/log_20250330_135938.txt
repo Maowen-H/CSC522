@@ -1,0 +1,12 @@
+2025-03-30 13:59:41,747 - Best Parameters: {'svm__C': 5, 'tfidf__max_features': 10000, 'tfidf__ngram_range': (1, 1)}
+2025-03-30 13:59:41,747 - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      0.83      0.79      2334
+           1       0.83      0.80      0.82      3340
+           2       0.87      0.83      0.85      2570
+
+    accuracy                           0.82      8244
+   macro avg       0.82      0.82      0.82      8244
+weighted avg       0.82      0.82      0.82      8244
+
