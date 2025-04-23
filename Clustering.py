@@ -98,7 +98,7 @@ def load_and_prepare_data(file_path):
 
 
 # 2. Determining optimal number of clusters
-def find_optimal_k(features, k_range=range(2, 11)):
+def find_optimal_k(features, k_range=range(5, 16)):
 
     print("Finding optimal number of clusters...")
     silhouette_scores = []
