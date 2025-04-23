@@ -114,8 +114,14 @@ def find_optimal_k(features, k_range=range(5, 16)):
         print(f"Silhouette coefficient for k={k}: {silhouette_avg:.4f}")
 
     # Find optimal number of clusters
-    best_k_idx = np.argmax(silhouette_scores)
-    best_k = k_range[best_k_idx]
+    # we choose k=12
+    # best_k_idx = np.argmax(silhouette_scores)
+    # best_k = k_range[best_k_idx]
+    # print(f"best_k_idx: {best_k_idx}")
+    # print(f"best_k: {best_k}")
+
+    best_k_idx = 6
+    best_k = 12
 
     # Plot silhouette scores
     plt.figure(figsize=(10, 6))
