@@ -1,0 +1,5 @@
+Training started.
+Training completed.
+Evaluating the model.
+Evaluation Results: {'eval_loss': 1.1795798540115356, 'eval_accuracy': 0.8726500909642207, 'eval_precision': 0.8741821605842915, 'eval_recall': 0.8723996884430593, 'eval_f1': 0.8732255804384321, 'eval_runtime': 6.8621, 'eval_samples_per_second': 1201.524, 'eval_steps_per_second': 75.195, 'epoch': 50.0}
+Model saved to ./saved_model
